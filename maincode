@@ -1,0 +1,10 @@
+print("The Total cost of a pair of shoes and a hoodie is 150 dollars. The hoodie costs 100 dollars more than the pair of shoes. How much is the pair of shoes?")
+print("This program can solve this and other similar problems while also giving an explanation.")
+
+t = int(input("Total cost?"))
+s = int(input("How much more does the second item cost when compared to the first one?"))
+
+itemcost = (t-s)/2
+print("The cost of the first item is " + str(itemcost))
+#The next part of the code explains the problem using the values that the user has given to the program.
+print("Explanation: The first item costs " + str(itemcost) + " and the second item costs " + str(s + itemcost) + ". This is because the second item is " + str(s) + " more than " + str(itemcost) + ". As a result, " + str(itemcost) + " plus " + str(s + itemcost) + " is equal to " + str(t) + " which is the total cost that was given to the program.")
